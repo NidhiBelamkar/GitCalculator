@@ -9,7 +9,7 @@ public class Calculator {
 			System.out.println("Enter second number");
 			int b = scan.nextInt();
 			int c=a+b;
-			System.out.print(c);
+			System.out.print(a + b + "= " +c);
 			
 		}
 		public static void subtraction() {
@@ -19,7 +19,7 @@ public class Calculator {
 			System.out.println("Enter second number");
 			int b = scan.nextInt();
 			int c=a-b;
-			System.out.print(c);
+			System.out.print(a - b + "= " +c);
 			
 		}
 		public static void multiplication() {
@@ -29,7 +29,7 @@ public class Calculator {
 			System.out.println("Enter second number");
 			int b = scan.nextInt();
 			int c=a*b;
-			System.out.print(c);
+			System.out.print(a * b + "= " +c);
 			
 		}
 		public static void division() {
@@ -39,7 +39,7 @@ public class Calculator {
 			System.out.println("Enter second number");
 			int b = scan.nextInt();
 			int c=a/b;
-			System.out.print(c);
+			System.out.print(a / b + "= " +c);
 			
 		}
 			
@@ -61,7 +61,7 @@ public class Calculator {
 		case 2:subtraction();break;
 		case 3:multiplication();break;
 		case 4:division();break;
-		default:System.out.print("Invalid choice");
+		default:System.out.print("Invalid choice, Please enter the correct choice as given below");
 		}
 		
 		
