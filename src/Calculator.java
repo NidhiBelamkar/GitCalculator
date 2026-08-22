@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// GitHub demonstration
+// GitHub demonstration updation
 public class Calculator {
 	
 		public static void addition() {
